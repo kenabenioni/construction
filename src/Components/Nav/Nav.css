@@ -1,0 +1,52 @@
+.Nav {
+    font-family: 'Oswald';
+    height: 90px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr {
+    border: 1.5px solid black;
+    margin: 0;
+}
+.navwrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.titlenav {
+    display: flex;
+    justify-content: center;
+
+}
+#titletext {
+    font-weight: 100;
+    margin-left: 30px;
+    width: 220px;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+#navlinks {
+    font-weight: 100;
+    margin: 0;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+
+}
+
+#navlinks:hover {
+    cursor: pointer;
+    color: rgb(194, 7, 7);
+}
